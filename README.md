@@ -1,13 +1,13 @@
 # Convert .py files to .exe
 
-pip install pyinstaller
-make python file
-convert .py file to exe: pyinstaller [filename]
-check .exe file in dist folder
+- pip install pyinstaller
+- make python file
+- convert .py file to exe: pyinstaller [filename]
+- check .exe file in dist folder
 
 ### above steps create an environment with lot of files and folders, hence to pack all in one single .exe file we use:
-pyinstaller --onefile [filename]
-eg: pyinstaller --onefile test.py
+> pyinstaller --onefile [filename]
+> eg: pyinstaller --onefile test.py
 
 ### if you do not wish to run a cmd in background when opening a .exe file then we use: (Use test2.py for this step)
 pyinstaller --onefile --windowed [filename]
